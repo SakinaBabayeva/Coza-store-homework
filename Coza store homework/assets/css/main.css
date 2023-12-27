@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: auto;
+  background-color: transparent;
+  z-index: 1;
+  position: absolute;
+}
+header nav {
+  width: 60%;
+  margin: auto;
+}
+header nav .navbarBrand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav .icon {
+  gap: 30px;
+  font-size: 15px;
+  display: flex;
+  justify-content: end;
+}
+header nav .collapseDiv {
+  font-size: 15px;
+  gap: 10px;
+  font-weight: 500;
+}
+
+main #newSection {
+  width: 100%;
+  min-height: 800px;
+  background-image: url(/assets/scss/images/slide-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+main #newSection .div {
+  width: 100%;
+}
+main #newSection .div h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+main #newSection .div h1 {
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+main #newSection .div .btn {
+  background-color: #717FE0;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+main #menSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 150px;
+}
+main #menSection .card {
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+main #menSection .card h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+main #menSection .card p {
+  margin-left: 20px;
+}
+main #menSection .card img {
+  max-width: 100%;
+}
+main #productSection {
+  width: 100%;
+  min-height: 500px;
+}
+main #productSection .content {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 40px;
+}
+main #productSection #search {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 130px;
+  height: 40px;
+}
+main #productSection #products .box {
+  max-width: 100%;
+}
+main #productSection #products .myBox img {
+  width: 100%;
+}
+main #productSection #page {
+  width: 170px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+main #inp {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 70%;
+  min-height: 50px;
+}
+main #searchDiv .myBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 150px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin: 20px;
+}
+main #searchDiv .myBox .myBoxdiv {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #searchDiv .myBox .myBoxdiv img {
+  width: 30%;
+  height: 150px;
+  border-radius: 20px;
+}
+main #searchDiv .myBox .myBoxdiv p {
+  font-size: 30px;
+  margin-right: 20px;
+}
+main .productImg {
+  max-width: 100%;
+}
+main #formSection {
+  width: 100%;
+  min-height: 300px;
+}
+main #formSection .formDiv {
+  display: flex;
+  justify-content: center;
+}
+main #formSection .formDiv button {
+  width: 130px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  min-height: 100px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
